@@ -111,6 +111,9 @@ input:focus {
 
 .card button {
   margin-top: 0.5rem;
+  width: 80px;
+  height: 30px;
+  padding: 0;
 }
 
 @media (min-width: 768px) {
