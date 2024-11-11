@@ -8,9 +8,12 @@ function PlantCard({ plant, onClickDelete }) {
   };
 
   const handleClickDelete = () => {
-    fetch(`http://localhost:6001/plants/${plant.id}`, {
-      method: "DELETE",
-    })
+    fetch(
+      `https://react-hooks-cc-plantshop-1-ul3w.onrender.com/plants/${plant.id}`,
+      {
+        method: "DELETE",
+      }
+    )
       .then((r) => r.json())
       .then(() => onClickDelete(plant.id));
   };

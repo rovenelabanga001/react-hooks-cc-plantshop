@@ -9,7 +9,7 @@ function PlantPage() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:6001/plants")
+    fetch("https://react-hooks-cc-plantshop-1-ul3w.onrender.com/plants")
       .then((r) => r.json())
       .then((data) => setPlants(data));
   }, []);
@@ -32,7 +32,7 @@ function PlantPage() {
     <main>
       <NewPlantForm onAddItem={onAddItem} />
       <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-      <PlantList plants={filteredPlants} onClickDelete={handleDeletedPlant}/>
+      <PlantList plants={filteredPlants} onClickDelete={handleDeletedPlant} />
     </main>
   );
 }
