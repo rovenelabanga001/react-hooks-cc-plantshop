@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-hooks-cc-plantshop/static/css/main.97b890c8.css",
+    "main.js": "/react-hooks-cc-plantshop/static/js/main.7d353f2d.js",
+    "index.html": "/react-hooks-cc-plantshop/index.html",
+    "main.97b890c8.css.map": "/react-hooks-cc-plantshop/static/css/main.97b890c8.css.map",
+    "main.7d353f2d.js.map": "/react-hooks-cc-plantshop/static/js/main.7d353f2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97b890c8.css",
+    "static/js/main.7d353f2d.js"
+  ]
+}
